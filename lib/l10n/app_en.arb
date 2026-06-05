@@ -1,0 +1,80 @@
+{
+  "@@locale": "en",
+  "appTitle": "Monthly Budget",
+  "summaryTitle": "Balance & Summary",
+  "available": "Available",
+  "openingBalance": "Total Funds",
+  "allocated": "Allocated",
+  "spent": "Spent",
+  "unallocated": "Unallocated",
+  "netCommitment": "Net commitment",
+  "categoriesTitle": "Categories",
+  "transactionsTitle": "Recent Transactions",
+  "analyticsTitle": "Insights",
+  "addCategory": "Add Category",
+  "addTransaction": "Add Transaction",
+  "editCategory": "Edit Category",
+  "editTransaction": "Edit Transaction",
+  "newMonth": "New Month",
+  "startNewMonth": "Start a New Month",
+  "history": "History",
+  "categoryName": "Category name",
+  "budgetLimit": "Budget limit",
+  "amount": "Amount",
+  "note": "Note (optional)",
+  "date": "Date",
+  "save": "Save",
+  "cancel": "Cancel",
+  "delete": "Delete",
+  "selectCategory": "Select category",
+  "statusOver": "Over budget",
+  "statusNear": "Near limit",
+  "statusWithin": "Within rate",
+  "statusLow": "Low use",
+  "statusNoBudget": "No budget",
+  "suggested": "Suggested",
+  "suggestedForNextMonth": "Suggested budget for next month",
+  "applySuggested": "Apply suggested budgets",
+  "overBudgetLabel": "Over budget",
+  "topSpender": "Top spender",
+  "lowUseLabel": "Low use",
+  "mostOver": "Most over",
+  "largestUnused": "Largest unused",
+  "commitmentRatio": "Budget used",
+  "emptyCategories": "No categories yet. Tap + to add one.",
+  "emptyTransactions": "No transactions yet.",
+  "requiredField": "Required",
+  "invalidAmount": "Enter a valid amount",
+  "duplicateName": "Name already exists",
+  "languageEnglish": "English",
+  "languageArabic": "العربية",
+  "setOpeningBalance": "Set total funds",
+  "confirm": "Confirm",
+  "deleteCategoryConfirm": "Delete this category and all its transactions?",
+  "deleteTransactionConfirm": "Delete this transaction?",
+  "archivedMonths": "Archived Months",
+  "noHistory": "No archived months yet.",
+  "none": "None",
+  "transactionCount": "{count, plural, =0{No transactions} =1{1 transaction} other{{count} transactions}}",
+  "@transactionCount": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "categoryCountOver": "{count}",
+  "@categoryCountOver": {
+    "placeholders": { "count": { "type": "int" } }
+  },
+  "newMonthExplain": "This archives {month} and starts fresh. Spent resets to 0 and your categories stay. Leftover {amount} rolls over as your new balance.",
+  "@newMonthExplain": {
+    "placeholders": {
+      "month": { "type": "String" },
+      "amount": { "type": "String" }
+    }
+  },
+  "valueOfTotal": "{value} of {total}",
+  "@valueOfTotal": {
+    "placeholders": {
+      "value": { "type": "String" },
+      "total": { "type": "String" }
+    }
+  }
+}
