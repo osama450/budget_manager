@@ -156,6 +156,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get setOpeningBalance => 'Set total funds';
 
   @override
+  String get currency => 'Currency';
+
+  @override
+  String get custom => 'Custom';
+
+  @override
   String get confirm => 'Confirm';
 
   @override

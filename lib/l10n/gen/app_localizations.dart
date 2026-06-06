@@ -392,6 +392,18 @@ abstract class AppLocalizations {
   /// **'Set total funds'**
   String get setOpeningBalance;
 
+  /// No description provided for @currency.
+  ///
+  /// In en, this message translates to:
+  /// **'Currency'**
+  String get currency;
+
+  /// No description provided for @custom.
+  ///
+  /// In en, this message translates to:
+  /// **'Custom'**
+  String get custom;
+
   /// No description provided for @confirm.
   ///
   /// In en, this message translates to:

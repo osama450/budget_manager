@@ -5,6 +5,7 @@ import '../../application/providers.dart';
 import '../../core/theme/app_colors.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../history/history_screen.dart';
+import '../sheets/currency_sheet.dart';
 import '../sheets/new_month_sheet.dart';
 import '../sheets/transaction_sheet.dart';
 import 'widgets/analytics_section.dart';
@@ -32,6 +33,11 @@ class DashboardScreen extends ConsumerWidget {
             label: Text(localeCode == 'ar' ? 'EN' : 'ع',
                 style: const TextStyle(fontWeight: FontWeight.w700)),
             style: TextButton.styleFrom(foregroundColor: AppColors.primary),
+          ),
+          IconButton(
+            tooltip: l.currency,
+            onPressed: () => showCurrencySheet(context),
+            icon: const Icon(Icons.currency_exchange_rounded),
           ),
           IconButton(
             tooltip: l.history,

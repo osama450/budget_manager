@@ -49,6 +49,8 @@
   "languageEnglish": "English",
   "languageArabic": "العربية",
   "setOpeningBalance": "تعيين الرصيد الافتتاحي",
+  "currency": "العملة",
+  "custom": "مخصّص",
   "confirm": "تأكيد",
   "deleteCategoryConfirm": "حذف هذا البند وكل معاملاته؟",
   "deleteTransactionConfirm": "حذف هذه المعاملة؟",

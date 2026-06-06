@@ -156,6 +156,12 @@ class AppLocalizationsAr extends AppLocalizations {
   String get setOpeningBalance => 'تعيين الرصيد الافتتاحي';
 
   @override
+  String get currency => 'العملة';
+
+  @override
+  String get custom => 'مخصّص';
+
+  @override
   String get confirm => 'تأكيد';
 
   @override

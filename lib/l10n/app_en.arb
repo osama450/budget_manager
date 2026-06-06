@@ -49,6 +49,8 @@
   "languageEnglish": "English",
   "languageArabic": "العربية",
   "setOpeningBalance": "Set total funds",
+  "currency": "Currency",
+  "custom": "Custom",
   "confirm": "Confirm",
   "deleteCategoryConfirm": "Delete this category and all its transactions?",
   "deleteTransactionConfirm": "Delete this transaction?",
